@@ -146,7 +146,7 @@ class MoneyManager extends Component {
                 AMOUNT
               </label>
               <input
-                type="number"
+                type="text"
                 id="amount"
                 className="input"
                 placeholder="AMOUNT"
@@ -164,7 +164,7 @@ class MoneyManager extends Component {
                 onChange={this.changeType}
               >
                 <option value="INCOME">Income</option>
-                <option value="Expenses">Expenses</option>
+                <option value="EXPENSES">Expenses</option>
               </select>
               <button type="submit" className="form-but">
                 Add
