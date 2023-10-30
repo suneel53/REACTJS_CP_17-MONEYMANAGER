@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.list-item {
+  border-top: 1px solid #7e858e;
+}
+.list-but {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0px;
+}
+.delete-img {
+  width: 20px;
+  height: 20px;
+}

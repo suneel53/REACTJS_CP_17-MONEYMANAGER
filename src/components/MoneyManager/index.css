@@ -1,0 +1,138 @@
+/* Write your CSS here */
+.bg-cont {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.moneymanager-cont {
+  border: 1px solid orange;
+  padding: 20px;
+  width: 98%;
+  height: 98%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moneymanager-profile-cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 95%;
+  height: 150px;
+
+  padding: 40px;
+  border-radius: 15px;
+
+  box-sizing: border-box;
+}
+.hed1 {
+  color: #475569;
+}
+.span1 {
+  color: #0b69ff;
+  font-weight: 600;
+}
+
+.moneyDetails-cont {
+  width: 95%;
+  height: 100px;
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputAndTransactions-cont {
+  border: 1px solid red;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  width: 95%;
+  height: 500px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.form {
+  border: 1px solid #7e858e;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 35%;
+  height: 320px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form-hed {
+  font-size: 20px;
+}
+.label {
+  color: #7e858e;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.input {
+  width: 80%;
+  height: 30px;
+  color: #7e858e;
+  border: 1px solid #d7dfe9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.form-but {
+  background-color: #0b69ff;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+.history-cont {
+  border: 1px solid #7e858e;
+  box-sizing: border-box;
+  width: 50%;
+  height: 320px;
+  padding: 20px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.history-hed {
+  font-size: 20px;
+}
+.historylist-cont {
+  border: 1px solid #7e858e;
+  width: 90%;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.list-cont {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-title {
+  font-weight: 400;
+  width: 25%;
+  font-weight: bold;
+}
+.list-amount {
+  font-weight: bold;
+  width: 25%;
+}
+.list-type {
+  padding-left: 50px;
+  width: 50%;
+  font-weight: bold;
+  box-sizing: border-box;
+}
